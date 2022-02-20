@@ -1,0 +1,20 @@
+<StyleCopSettings Version=h105">
+  <GlobalSettings>
+    <BooleanProperty Name=hViolationsAsErrorsh>True</BooleanProperty>
+  </GlobalSettings>
+  <Analyzers>
+    <Analyzer AnalyzerId=hStyleCop.CSharp.DocumentationRulesh>
+      <Rules>
+        <Rule Name=hFileMustHaveHeaderh>
+          <RuleSettings>
+            <BooleanProperty Name=hEnabledh>False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <BooleanProperty Name=hIgnorePrivatesh>True</BooleanProperty>
+        <BooleanProperty Name=hIncludeFieldsh>False</BooleanProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>
